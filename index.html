@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+
+   <nav id="desktop-nav">
+    <div class="logo">My Portfolio</div>
+    <div>
+        <ul class="nav-links ">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience ">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+   </nav>
+   <nav id="hamburger-nav">
+    <div class="logo">Joshua Sichilya</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li> 
+        </div>
+    </div>
+   </nav> 
+   <section id="profile">
+    <div class="section__pic-container">
+        <img src="./assets/WhatsApp_Image_2025-07-07_at_09.47.56_542ca323-removebg-preview copy.png" alt="Joshua Sichilya profile picture">
+    </div>
+    <div class="section__text">
+        <p class="section__text__p1">Hello i'm</p>
+        <h1 class="title">Joshua Sichilya</h1>
+        <p class="section__text__p2">Cyber Security Analyst</p>
+        <div class="btn-container">
+            <button class="btn btn-color-1" onclick="window.open('./assets/CURRICULUM VITAE.pdf')">
+                Download Resume
+            </button>
+            <button class="btn btn-color-2" onclick="location.href='./#contact'">
+                Contact info
+            </button>
+        </div>
+        <div class="social-container">
+            <img src="./assets/linkedin.png" alt="my linkedin profile"
+            class="icon" onclick="location.href='https://www.linkedin.Com/in/joshua-sichilya-516B67206">
+        </div>
+    </div>
+
+   </section>
+   <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+        
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="./assets/experience.png" alt="experience icon" class="icon">
+                    <h3>Experience</h3>
+                    <p>4+ years <br>Graphic Design</p>
+                </div>
+                <div class="details-container">
+                 <img src="./assets/education.png" alt="education icon" class="icon">
+                    <h3>Education</h3>
+                    <p>Bachelor's Degree in Cybersecurity <br>Certificate in Azure AI essessals</p>   
+                </div>
+            </div>
+            <div class="text-container">
+                <p> I am a cyber security student awaiting graduation from Zambia university College of Technology. 
+                    I have a strong foundation in risk management, network security, digital Forensics, 
+                    Biometrics & Access Control and Risk Assessment & Compliance. Skilled in Java and python programming, 
+                    SQL and system security and incident response. I have a certificate in Digital Banking, 
+                    data analytic, Microsoft Azure AI and digital marketing, am also registered member of the Information and Communication Association of Zambia. 
+                    I am committed, dedicated and willing to learn, adapt and qualify to achieving my goal or anything that’s required of me.
+
+                </p>
+            </div>
+        </div>
+    </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" 
+        class="icon arrow" onclick="location.href='./#experience'">
+   </section>
+   
+   <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+                <h2 class="experience-sub-title">Cyber Securty</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon"
+                        class="icon">
+                        <div>
+                            <h3>Data Analytics</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon"
+                        class="icon">
+                        <div>
+                            <h3>SOC Analyst</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon"
+                        class="icon">
+                        <div>
+                            <h3>ACTIVE DIRECTORY</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon"
+                        class="icon">
+                        <div>
+                            <h3>Risk Asssessment & Compliance</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon"
+                        class="icon">
+                        <div>
+                            <h3>Networking</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon"
+                        class="icon">
+                        <div>
+                            <h3>Database Management Systems</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+             <div class="details-container">
+                <h2 class="experience-sub-title">Graphic Designer</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon"
+                        class="icon">
+                        <div>
+                            <h3>Adobe Photoshope</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon"
+                        class="icon">
+                        <div>
+                            <h3>Adobe Illustreter</h3>
+                            <p>Intermedite</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon"
+                        class="icon">
+                        <div>
+                            <h3>Microsoft Office suit</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon"
+                        class="icon">
+                        <div>
+                            <h3>Web Design</h3>
+                            <p>Beginner</p>
+                        </div>
+                    </article>
+            
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <img src="./assets/arrow.png" 
+    alt="Arrow icon" 
+    class="icon arrow" 
+     onclick="location.href='./#projects'">
+   </section>
+   <section id="Projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects
+    </h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/Untitled-3.jpg" 
+                alt="project 1"
+                class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 Project-btn"
+                ></button>
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/project-2.png" 
+                alt="project 2"
+                class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 Project-btn"
+                ></button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <img src="./assets/arrow.png" 
+    alt="Arrow icon" 
+    class="icon arrow" 
+     onclick="location.href='./#projects'">
+   </section>
+ </section>
+   <section id="Qualifications">
+    <p class="section__text__p1">Browse My </p>
+    <h1 class="title">Qualifications
+    </h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/CertificateOfCompletion_Microsoft Azure AI Essentials Professional Certificate by Microsoft and LinkedIn.jpg" 
+                alt="certificate 1"
+                class="certificate-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Certificate in Microsoft Azure AI Essentials</h2>
+            
+        </div>
+        
+          <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/628_1747135528_certificate copy 2.png" 
+                alt="certificate 2"
+                class="certificate-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Diploma in Data Analytics</h2>  
+        </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/628_1747135528_certificate.jpg" 
+                alt="certificate 3"
+                class="certificate-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Certificate in Digital Marketing</h2>  
+        </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/UC-9786b589-5d57-4ff4-a8c5-63058cd339d2.jpg" 
+                alt="certificate 4"
+                class="certificate-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Certificate in Digital Banking - Masterclass and Introducation to Fintech</h2>  
+        </div>
+         <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/membership_certificate.jpg" 
+                alt="certificate 5"
+                class="certificate-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Certificate of Membership</h2>  
+        </div>
+        </div>
+    </div>
+    <img src="./assets/arrow.png" 
+    alt="Arrow icon" 
+    class="icon arrow" 
+     onclick="location.href='./#projects'">
+   </section>
+
+   <section id="Contact">
+    <p class="section__text__p1">GET IN TOUCH</p>
+    <H1 class="title">Contact Me</H1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img src="./assets/email.png" alt="email icon"
+            class="icon contact-icon email-icon ">
+            <p><a href="mailto:examplemail@gmail.com">joshuasichilya099@gmail.com</a></p>
+        </div>
+         <div class="contact-info-container">
+            <img src="./assets/linkedin.png" alt="linkedin icon"
+            class="icon contact-icon">
+            <p><a href="https://www.linkedin.com/in/joshua-sichilya-516b67206">linkedin</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="./assets/phone-call-telephone-ringing-icon-isolated-on-white-background-vector-removebg-preview.png" alt="phone icon"
+            class="icon phone-icon contact-icon">
+            <p>0967096552</p>
+        </div>
+    </div>
+   </section>
+   <footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links ">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience ">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        </div>
+    </nav>
+    <p>Copyright &#169; 2025 Joshua Sichilya. All Rights Reserved</p>
+   </footer>
+   <script src="script.js"></script>
+</body>
+</html>
